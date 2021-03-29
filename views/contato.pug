@@ -1,0 +1,21 @@
+doctype html
+head
+  title CONTATO
+  script(type='text/javascript').
+    if (foo) bar(1 + 5)
+h1 CONTATO
+#container.col
+  center
+    form(action='/contato' method='post')
+      label Usuario:
+      input(type='text' name='nome' size='114')
+      p
+        label E-mail:
+        input(type='text' name='email' size='110')
+      p
+        label Comentarios:
+      p
+        textarea(cols='102' rows='5' name='comentario') Digite aqui....
+      p
+        input(type='submit' name='enviar' value='enviar')
+        input(type='reset' name='cancelar' value='cancelar')
